@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+
+
+    <div class="container-items">
+    <form id="payment-form">
+        <div class="item">
+            <div class="info-product">
+                <h2>Escribe el nombre(s) del propietario de la tarjeta.</h2>
+                <input class="price" type="text" id="nombre" placeholder="Juan">
+            </div>  
+        
+        <div class="item">
+            <div class="info-product">
+                <h2>Escribe los apellidos del propietario de la tarjeta.</h2>
+                <input type="text" id="apellidos" placeholder="Gonzalez">
+            </div>
+
+        <div class="item">
+            <div class="info-product">
+                <h2>Ingresa un correo para hacerte llegar tu factura.</h2>
+                <input type="email" id="correo" placeholder="Ejemplo@gmail.com">
+            </div>
+
+        <div class="item">
+            <div class="info-product">
+                <h2>Escribe el numero de la tarjeta de crédito o débito.</h2>
+                <input type="text" id="tarjeta" placeholder="0000 0000 0000 0000">
+            </div>
+                    
+        <div class="item">
+            <div class="info-product">
+                <h2>Escribe la fecha de expiración de la tarjeta.</h2>
+                <input type="text" id="expiracion" placeholder="Fecha de Expiración (05/24)">
+            </div>
+
+        <div class="item">
+            <div class="info-product">
+                <h2>Escribe los números de seguridad.</h2>
+                <input type="text" id="cvv" placeholder="123">
+            </div>
+                    
+        <div class="item">
+            <div class="info-product">
+                <h2>Ingresa un correo para hacerte llegar tu factura.</h2>
+                <input type="email" id="correo" placeholder="Ejemplo@gmail.com">
+            </div>
+
+        </div>
+
+            
+        <button type="submit">Realizar Pago</button>
+
+        <button type="submit"><a href="indexx.html" style="color: white;">Seguir comprando</a></button>
+
+        <p>Si tu pago es en efectivo ponte en contacto con nosotros</p>
+        <img src="assets/imgs/qr.jpeg" alt="qr de WhatsApp" width="250" height="250">
+       
+
+    </form>
+    <div id="message"></div>
+    <button id="inicio" style="display: none;">Regresar al Inicio</button>
+    <script src="met.js"></script>
+</body>
+</html>

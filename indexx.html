@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Tienda</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="assets/css/style.css">
+	</head>
+	<body>
+
+		
+		<header>
+			<p style="color: black;"><a href="index.html">             Home  </a></p><p><a href="indexx.html">  Productos</a></p><p><a href="about.html">  Contáctanos</a></p>
+			<hr>
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="icon-cart"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+						/>
+					</svg>
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">Zapatos Nike</p>
+								<span class="precio-producto-carrito">$80</span>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+					</div>
+
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">$200</span>
+					</div>
+					<p class="cart-empty">El carrito está vacío</p>
+					<div class="btn-listo">
+						<a href="metodo.html"><button class="btn-listo">Comprar</button></a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="container-items">
+			<h1>DULCES TIX <hr></h1>
+			<h3>MIRA TODO LO QUE TENEMOS PARA TI</h3>
+			<hr class="mx-autos">
+			<p>En nuestra tienda, no solo encontrarán una variedad exquisita de dulces, sino también una experiencia que despierta los sentidos y llena de alegría cada momento.
+
+				Desde pequeños, muchos de nosotros hemos encontrado felicidad en los dulces. Ya sea un caramelo después de la escuela, una galleta horneada con amor por nuestra abuela, o el sabor único de un chocolate en un día especial. Los dulces tienen el poder de transportarnos a esos momentos felices y de crear nuevos recuerdos que atesorar.</p>
+			<div class="item">
+				<figure>
+					<img
+						src="assets/imgs/featured1.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Carlos V (20 piezas)</h2>
+        			<p class="price">$59.00</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+						src="assets/imgs/featured2.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Ferrero Rocher (16 pzs)</h2>
+					<p class="price">$150.00</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+						src="assets/imgs/featured3.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Xocolatl calaveras</h2>
+					<p class="price">$225.00</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+						src="assets/imgs/featured4.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Ferrero rocher (10 pzs)</h2>
+					<p class="price">$78.00</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+						src="assets/imgs/cor.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Corazón rocher</h2>
+					<p class="price">$65.00</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+						src="assets/imgs/p.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Panditas</h2>
+					<p class="price">$27.00</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+						src="assets/imgs/t.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Trident</h2>
+					<p class="price">$22.00</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+						src="assets/imgs/b.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Chicles bubaloo</h2>
+					<p class="price">$23.00</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+						src="assets/imgs/pe.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pelon pelo rico</h2>
+					<p class="price">$39.00</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+						src="assets/imgs/s.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Skwinkles</h2>
+					<p class="price">$39.00</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+						src="assets/imgs/m.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Mazapan</h2>
+					<p class="price">$60.00</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+						src="assets/imgs/bo.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Bocadin</h2>
+					<p class="price">$28.00</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+		</div>
+		
+
+		<!--footer-->
+		<footer class="mt-5 py5">
+			<div class="row container mx-auto pt-5">
+			  <div class="footer-one col-lg-3 col-md-6 col-sm-12">
+				<img class="logo" src="assets/imgs/logo.jpg"/>
+				<p class="pt-3">Dulces TIX la favorita para tus eventos</p>
+			  </div>
+		  
+			  <div class="footer-one col-lg-3 col-md-6 col-md-12">
+				<h5 class="pb-2">Contáctanos</h5>
+				<div>
+				  <h6 class="text-uppercase">Dirección</h6>
+				  <p>Del Tecnológico 420, Corredor Industrial la Ciénega, 72220 Heroica Puebla de Zaragoza, Pue</p>
+				</div>
+				<div>
+				  <h6 class="text-uppercase">Celular</h6>
+				  <p>2211169968</p>
+				</div>
+				<div>
+				  <h6 class="text-uppercase">Email</h6>
+				  <p>dulces.tix@gmail.com</p>
+				</div>
+			  </div>
+		  
+			<div class="copyright mt-5">
+			  <div class="row container mx-auto">
+				<div class="col-lg-3 col-md-5 col-sm-12 mb-4">
+				</div>
+				<div class="col-lg-3 col-md-5 col-sm-12 mb-4 text-nowrap mb-2">
+				  <p>tixdulces @2024 todos los derechos reservados </p>
+				</div>
+				</div>
+			  </div>
+			</div>
+			</footer>
+
+		<script src="index.js"></script>
+	</body>
+</html>
